@@ -105,7 +105,7 @@ python cli_demo.py
 <div align=center>
 <img src="assets/figure4.png"  width = "400" alt="HuatuoGPT2" align=center/>
 </div>
-HuatuoGPT2将预训练预料利用LLM转变为指令形式，请采用下面脚本进行Data Unification。
+- HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
 
 ```Bash
 python adapation/data_unification/unify_via_chatgpt.py
@@ -115,20 +115,20 @@ python adapation/data_unification/unify_via_chatgpt.py
 <div align=center>
 <img src="assets/figure3.png"  width = "320" alt="HuatuoGPT2" align=center/>
 </div>
-
-HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
+- We introduce a priority sampling approach, pre-processing data with this algorithm:
 
 ```bash
 python adapation/one_stage_training/data_preprocess.py
 ```
 
-Then, training is conducted using one-stage training:
+- Then, training is conducted using one-stage training:
 
 ```Bash
 python adapation/one_stage_training/one_stage_training.py
 ```
 
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
+
 <div align=center>
 <img src="assets/loss.png"  width = "320" alt="HuatuoGPT2" align=center/>
 </div>
@@ -174,13 +174,13 @@ Here, we will provide our evaluation data and scripts.
 
 ### Automated Evaluation of Medical Response Quality
 
-Single-turn response evaluation using GPT-4:
+- Single-turn response evaluation using GPT-4:
 
 ```bash
 python evaluation/GPT4_eval_inst.py
 ```
 
-Multi-turn dialogue evaluation using GPT-4:
+- Multi-turn dialogue evaluation using GPT-4:
 
 ```bash
 python evaluation/GPT4_eval_conv.py
