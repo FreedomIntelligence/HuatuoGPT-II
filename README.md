@@ -139,28 +139,27 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 <div align=center>
 <img src="assets/figure2.png"  width = "320" alt="HuatuoGPT2" align=center/>
 </div>
-
 The domain data pipeline is used to extract high-quality medical data from massive amounts of general corpora. It mainly consists of four steps.
 
-### 1. Extract medical corpus
+1. Extract medical corpus
 
 ```bash
 Python data_pipline/1_extraction.py
 ```
 
-### 2. Segmentation
+2. Segmentation
 
 ```bash
 Python data_pipline/2_segmentation.py
 ```
 
-### 3. cleaning
+3. cleaning
 
 ```bash
 Python data_pipline/3_cleaning.py
 ```
 
-### 4. De-deplication
+4. De-deplication
 
 ```bash
 Python data_pipline/4_de_deplication.py
