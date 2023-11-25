@@ -6,6 +6,7 @@
 - [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.notion.so/HuatuoGPT-Exploring-the-Reliability-of-Medical-LLMs-c14ad27cc1c74991b37df32c1d5ac375?pvs=21)!
 
 
+| [Online Demo](https://www.huatuogpt.cn/) | [7B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B) | [13B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B) | [34B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B) | [Paper](https://arxiv.org/abs/2311.09774) |
 
 ## ⚡ Introduction
 
@@ -21,8 +22,10 @@ The open-source release of HuatuoGPT-2 includes:
 - **Domain Data Pipeline**: A system for extracting high-quality domain-specific data from general corpora.
 - **Evaluation for Chinese Medical LLM**: Comprehensive automatic evaluation methods for medical response capabilities of LLM and the fresh professional pharmacist exam assessment.
 
+Note that we're still actively organizing our code and data. Please stay tuned for updates coming soon!
+
 <div align=center>
-<img src="assets/figure1.png"  width = "640" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure1.png"  width = "100%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
@@ -61,7 +64,7 @@ Compared with representative open-source models and closed-source models (includ
 
 Our model is now available on Huggingface. You can Try our model in https://www.huatuogpt.cn/.
 
-| Model          | Hackbone           | Checkpoint    |
+| Model          | Backbone           | Checkpoint    |
 | -------------- | ------------------ | ------------- |
 | HuatuoGPT2-7B  | Baichuan2-7B-Base  | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B) |
 | HuatuoGPT2-13B | Baichuan2-13B-Base | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B) |
@@ -70,7 +73,7 @@ Our model is now available on Huggingface. You can Try our model in https://www.
 ### Quantization Model
 
 A quantized version of HuatuoGPT2 is also provided, allowing users with constrained memory or computing resources to access our HuatuoGPT2.
-| Quantization          | Hackbone      | Checkpoint |
+| Quantization          | Backbone      | Checkpoint |
 | --------------------- | ------------- | ------------- |
 | HuatuoGPT2-7B (Int4)  | Baichuan2-7B-Base | HF Lnik |
 | HuatuoGPT2-7B (Int8) | Baichuan2-7B-Base | HF Lnik |
@@ -103,8 +106,9 @@ python cli_demo.py
 ### Data Unification
 
 <div align=center>
-<img src="assets/figure4.png"  width = "400" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure4.png"  width = "80%" alt="HuatuoGPT2" align=center/>
 </div>
+  
 - HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
 
 ```Bash
@@ -113,8 +117,9 @@ python adapation/data_unification/unify_via_chatgpt.py
 
 ### One-stage training
 <div align=center>
-<img src="assets/figure3.png"  width = "320" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure3.png"  width = "80%" alt="HuatuoGPT2" align=center/>
 </div>
+
 - We introduce a priority sampling approach, pre-processing data with this algorithm:
 
 ```bash
@@ -130,14 +135,14 @@ python adapation/one_stage_training/one_stage_training.py
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
 
 <div align=center>
-<img src="assets/loss.png"  width = "320" alt="HuatuoGPT2" align=center/>
+<img src="assets/loss.png"  width = "80%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
 ## 🔍 Data Pipline
 
 <div align=center>
-<img src="assets/figure2.png"  width = "320" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure2.png"  width = "80%" alt="HuatuoGPT2" align=center/>
 </div>
 The domain data pipeline is used to extract high-quality medical data from massive amounts of general corpora. It mainly consists of four steps.
 
@@ -153,7 +158,7 @@ Python data_pipline/1_extraction.py
 Python data_pipline/2_segmentation.py
 ```
 
-3. cleaning
+3. Cleaning
 
 ```bash
 Python data_pipline/3_cleaning.py
@@ -201,8 +206,8 @@ Access our newest medical exam dataset via the link provided. The dataset includ
 
 The HuatuoGPT series has so far launched two generations:
 
-- **HuatuoGPT**: A Doctor-like Medical Large Language Model
-- **HuatuoGPT-II**:  An Domain-enhanced Medical Large Language Model
+- [**HuatuoGPT**](https://github.com/FreedomIntelligence/HuatuoGPT): A Doctor-like Medical Large Language Model
+- [**HuatuoGPT-II**](https://github.com/FreedomIntelligence/HuatuoGPT-II):  An Domain-enhanced Medical Large Language Model
 
 In the future, we will continue to release new versions of HuatuoGPT. Our goal is to enhance the capabilities of LLM in the Chinese medical field and to adhere to open-source principles (aligned with the ethos of FreedomIntelligence). We hope to work together with everyone to promote the development of medical LLM!
 
@@ -229,4 +234,7 @@ In the future, we will continue to release new versions of HuatuoGPT. Our goal i
 We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ) and the Shenzhen Rsearch Institute of Big Data (SRIBD).
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date)](https://star-history.com/#FreedomIntelligence/HuatuoGPT-II&Date)
 
