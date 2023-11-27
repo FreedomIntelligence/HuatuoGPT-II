@@ -53,7 +53,7 @@ Compared with representative open-source models and closed-source models (includ
 - **The Fresh Medical Exams**: We collected the fresh 2023 Chinese National Pharmacist Licensure Examination, which started on October 21, 2023. This date is later than our data finalization. HuatuoGPT2 achieved the best results in this exam, as shown below.
 
 <div align=center>
-<img src="assets/res1.png"  width = "640" alt="HuatuoGPT2" align=center/>
+<img src="assets/res1.png"  width = "100%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
@@ -106,7 +106,7 @@ python cli_demo.py
 ### Data Unification
 
 <div align=center>
-<img src="assets/figure4.png"  width = "80%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure4.png"  width = "60%" alt="HuatuoGPT2" align=center/>
 </div>
   
 - HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
@@ -117,7 +117,7 @@ python adapation/data_unification/unify_via_chatgpt.py
 
 ### One-stage training
 <div align=center>
-<img src="assets/figure3.png"  width = "80%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure3.png"  width = "60%" alt="HuatuoGPT2" align=center/>
 </div>
 
 - We introduce a priority sampling approach, pre-processing data with this algorithm:
@@ -135,14 +135,14 @@ python adapation/one_stage_training/one_stage_training.py
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
 
 <div align=center>
-<img src="assets/loss.png"  width = "80%" alt="HuatuoGPT2" align=center/>
+<img src="assets/loss.png"  width = "70%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
 ## 🔍 Data Pipline
 
 <div align=center>
-<img src="assets/figure2.png"  width = "80%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure2.png"  width = "60%" alt="HuatuoGPT2" align=center/>
 </div>
 The domain data pipeline is used to extract high-quality medical data from massive amounts of general corpora. It mainly consists of four steps.
 
@@ -234,7 +234,5 @@ In the future, we will continue to release new versions of HuatuoGPT. Our goal i
 We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ) and the Shenzhen Rsearch Institute of Big Data (SRIBD).
 
 
-## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date)](https://star-history.com/#FreedomIntelligence/HuatuoGPT-II&Date)
 
