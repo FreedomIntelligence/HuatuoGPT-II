@@ -117,7 +117,7 @@ python adapation/data_unification/unify_via_chatgpt.py
 
 ### One-stage training
 <div align=center>
-<img src="assets/figure3.png"  width = "60%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure3.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
 
 - We introduce a priority sampling approach, pre-processing data with this algorithm:
@@ -135,14 +135,14 @@ python adapation/one_stage_training/one_stage_training.py
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
 
 <div align=center>
-<img src="assets/loss.png"  width = "70%" alt="HuatuoGPT2" align=center/>
+<img src="assets/loss.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
 ## 🔍 Data Pipline
 
 <div align=center>
-<img src="assets/figure2.png"  width = "60%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure2.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
 The domain data pipeline is used to extract high-quality medical data from massive amounts of general corpora. It mainly consists of four steps.
 
