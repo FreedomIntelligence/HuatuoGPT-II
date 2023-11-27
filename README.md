@@ -25,7 +25,7 @@ The open-source release of HuatuoGPT-2 includes:
 Note that we're still actively organizing our code and data. Please stay tuned for updates coming soon!
 
 <div align=center>
-<img src="assets/figure1.png"  width = "100%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure1.png"  width = "90%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
@@ -53,7 +53,7 @@ Compared with representative open-source models and closed-source models (includ
 - **The Fresh Medical Exams**: We collected the fresh 2023 Chinese National Pharmacist Licensure Examination, which started on October 21, 2023. This date is later than our data finalization. HuatuoGPT2 achieved the best results in this exam, as shown below.
 
 <div align=center>
-<img src="assets/res1.png"  width = "100%" alt="HuatuoGPT2" align=center/>
+<img src="assets/res1.png"  width = "90%" alt="HuatuoGPT2" align=center/>
 </div>
 
 
@@ -106,7 +106,7 @@ python cli_demo.py
 ### Data Unification
 
 <div align=center>
-<img src="assets/figure4.png"  width = "60%" alt="HuatuoGPT2" align=center/>
+<img src="assets/figure4.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
   
 - HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
