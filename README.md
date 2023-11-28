@@ -3,7 +3,7 @@
 ## ✨ Latest News
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
 - [11/21/2023] We released HuatuoGPT-II models. The HuatuoGPT-II will be available in **7B**, **13B**, and **34B** versions.
-- [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.notion.so/HuatuoGPT-Exploring-the-Reliability-of-Medical-LLMs-c14ad27cc1c74991b37df32c1d5ac375?pvs=21)!
+- [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.huatuogpt.cn/)!
 
 
 | [Online Demo](https://www.huatuogpt.cn/) | [7B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B) | [13B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B) | [34B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B) | [Paper](https://arxiv.org/abs/2311.09774) |
