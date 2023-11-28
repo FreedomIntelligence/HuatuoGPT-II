@@ -75,10 +75,10 @@ Our model is now available on Huggingface. You can Try our model in https://www.
 A quantized version of HuatuoGPT2 is also provided, allowing users with constrained memory or computing resources to access our HuatuoGPT2.
 | Quantization          | Backbone      | Checkpoint |
 | --------------------- | ------------- | ------------- |
-| HuatuoGPT2-7B (Int4)  | Baichuan2-7B-Base | HF Lnik |
-| HuatuoGPT2-7B (Int8) | Baichuan2-7B-Base | HF Lnik |
-| HuatuoGPT2-34B (Int4)       | Yi-34B        | HF Lnik |
-| HuatuoGPT2-34B (Int8)        | Yi-34B        | HF Lnik |
+| HuatuoGPT2-7B-4bits  | Baichuan2-7B-Base | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B-4bits) |
+| HuatuoGPT2-7B-8bits | Baichuan2-7B-Base | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B-8bits) |
+| HuatuoGPT2-34B-4bits       | Yi-34B        | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B-4bits) |
+| HuatuoGPT2-34B-8bits        | Yi-34B        | [HF Lnik](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B-8bits) |
 
 ### Model Inference
 
