@@ -211,6 +211,7 @@ The HuatuoGPT series has so far launched two generations:
 
 In the future, we will continue to release new versions of HuatuoGPT. Our goal is to enhance the capabilities of LLM in the Chinese medical field and to adhere to open-source principles (aligned with the ethos of FreedomIntelligence). We hope to work together with everyone to promote the development of medical LLM!
 
+We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ) and the Shenzhen Rsearch Institute of Big Data (SRIBD).
 
 
 ## Citation
@@ -231,8 +232,15 @@ In the future, we will continue to release new versions of HuatuoGPT. Our goal i
   year={2023}
 }
 ```
-We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ) and the Shenzhen Rsearch Institute of Big Data (SRIBD).
 
+## Star History
 
+<a href="https://star-history.com/#FreedomIntelligence/HuatuoGPT-II&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date" />
+  </picture>
+</a>
 
 
