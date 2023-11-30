@@ -1,8 +1,10 @@
 # HuatuoGPT2, One-stage Training for Medical Adaption of LLMs
 
-<p style="font-size:30px;" align="center">
-HuatuoGPT-II
-<p align="center">
+<div align="center">
+<h3>
+  HuatuoGPT-II
+</h3>
+</div>
 
 
 <p align="center">
@@ -11,12 +13,9 @@ HuatuoGPT-II
 
 ### ✨ Latest News
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
-
 - [11/21/2023] We released HuatuoGPT-II models. The HuatuoGPT-II will be available in **7B**, **13B**, and **34B** versions.
-
 - [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.huatuogpt.cn/)!
 
-  
 
 
 ## ⚡ Introduction
@@ -30,7 +29,6 @@ The open-source release of HuatuoGPT-2 includes:
 - **HuatuoGPT2 Model**: Open-sourcing of 7B, 13B, and 34B versions.
 - **Training Code**: Training code for one-stage adaptation will be provided, enabling better model adaptation across various languages and domains.
 - **HuatuoGPT2 Data**: Release of partial pre-training and fine-tuning instructions.
-- **Domain Data Pipeline**: A system for extracting high-quality domain-specific data from general corpora.
 - **Evaluation for Chinese Medical LLM**: Comprehensive automatic evaluation methods for medical response capabilities of LLM and the fresh professional pharmacist exam assessment.
 
 Note that we're still actively organizing our code and data. Please stay tuned for updates coming soon!
@@ -164,8 +162,6 @@ We open source part of the training data.
 
 ## 🧐 Evaluation
 
-Here, we will provide our evaluation data and scripts.
-
 ### Automated Evaluation of Medical Response Quality
 
 - Single-turn response evaluation using GPT-4:
@@ -232,4 +228,3 @@ We are from the School of Data Science, the Chinese University of Hong Kong, She
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date" />
   </picture>
 </a>
-
