@@ -162,8 +162,6 @@ We open source part of the training data.
 
 ## 🧐 Evaluation
 
-Here, we will provide our evaluation data and scripts.
-
 ### Automated Evaluation of Medical Response Quality
 
 - Single-turn response evaluation using GPT-4:
