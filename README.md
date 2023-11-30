@@ -100,7 +100,8 @@ python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B
 ```
 
 
-## ⚒️ One-stage Adapation
+
+## 🌈 One-stage Adapation
 
 ### Data Unification
 
@@ -138,7 +139,7 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 </div>
 
 
-## 🌈 Data
+## 📚 Data
 
 We open source part of the training data.
 
