@@ -1,12 +1,22 @@
 # HuatuoGPT2, One-stage Training for Medical Adaption of LLMs
 
-## ✨ Latest News
+<div align="center">
+<h3>
+  HuatuoGPT-II
+</h3>
+</div>
+
+
+<p align="center">
+🖥️ <a href="https://www.huatuogpt.cn/" target="_blank">Online Demo</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B" target="_blank">7B Model</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B" target="_blank">13B Model</a> ｜ ⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B" target="_blank">34B Model</a>   ｜ 📃 <a href="https://arxiv.org/abs/2311.09774" target="_blank">Paper</a> <br>
+</p>
+
+### ✨ Latest News
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
 - [11/21/2023] We released HuatuoGPT-II models. The HuatuoGPT-II will be available in **7B**, **13B**, and **34B** versions.
 - [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.huatuogpt.cn/)!
 
 
-| [Online Demo](https://www.huatuogpt.cn/) | [7B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B) | [13B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B) | [34B Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B) | [Paper](https://arxiv.org/abs/2311.09774) |
 
 ## ⚡ Introduction
 
@@ -19,7 +29,6 @@ The open-source release of HuatuoGPT-2 includes:
 - **HuatuoGPT2 Model**: Open-sourcing of 7B, 13B, and 34B versions.
 - **Training Code**: Training code for one-stage adaptation will be provided, enabling better model adaptation across various languages and domains.
 - **HuatuoGPT2 Data**: Release of partial pre-training and fine-tuning instructions.
-- **Domain Data Pipeline**: A system for extracting high-quality domain-specific data from general corpora.
 - **Evaluation for Chinese Medical LLM**: Comprehensive automatic evaluation methods for medical response capabilities of LLM and the fresh professional pharmacist exam assessment.
 
 Note that we're still actively organizing our code and data. Please stay tuned for updates coming soon!
