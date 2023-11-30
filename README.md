@@ -96,9 +96,8 @@ print(response)
 #### Inference with Command Line
 
 ```bash
-python cli_demo.py
+python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B
 ```
-
 
 
 ## ⚒️ One-stage Adapation
@@ -108,11 +107,11 @@ python cli_demo.py
 <div align=center>
 <img src="assets/figure4.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
-  
+
 - HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
 
 ```Bash
-python adapation/data_unification/unify_via_chatgpt.py
+python adapation/data_unification/rewrite.py
 ```
 
 ### One-stage training
@@ -123,13 +122,13 @@ python adapation/data_unification/unify_via_chatgpt.py
 - We introduce a priority sampling approach, pre-processing data with this algorithm:
 
 ```bash
-python adapation/one_stage_training/data_preprocess.py
+python adapation/one_stage_training/data_process.py
 ```
 
 - Then, training is conducted using one-stage training:
 
 ```Bash
-python adapation/one_stage_training/one_stage_training.py
+bash adapation/one_stage_training/train.sh
 ```
 
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
@@ -139,36 +138,15 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 </div>
 
 
-## 🔍 Data Pipline
+## 🌈 Data
 
-<div align=center>
-<img src="assets/figure2.png"  width = "50%" alt="HuatuoGPT2" align=center/>
-</div>
-The domain data pipeline is used to extract high-quality medical data from massive amounts of general corpora. It mainly consists of four steps.
+We open source part of the training data.
 
-1. Extract medical corpus
+| Data Type                               | #Sample | Link    |
+| --------------------------------------- | ------- | ------- |
+| Medical Fine-tuning Instruction (GPT-4) | 50,000  | HF Link |
+| Medical Pre-training Instruction        | -       | HF Link |
 
-```bash
-Python data_pipline/1_extraction.py
-```
-
-2. Segmentation
-
-```bash
-Python data_pipline/2_segmentation.py
-```
-
-3. Cleaning
-
-```bash
-Python data_pipline/3_cleaning.py
-```
-
-4. De-deplication
-
-```bash
-Python data_pipline/4_de_deplication.py
-```
 
 
 
@@ -242,5 +220,4 @@ We are from the School of Data Science, the Chinese University of Hong Kong, She
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/HuatuoGPT-II&type=Date" />
   </picture>
 </a>
-
 
