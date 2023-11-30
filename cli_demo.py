@@ -82,6 +82,6 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-name", type=str, default="FreedomIntelligence/HuatuoGPT2-7B")
+    parser.add_argument("--model_name", type=str, default="FreedomIntelligence/HuatuoGPT2-7B")
     args = parser.parse_args()
     main(args)
