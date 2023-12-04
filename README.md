@@ -184,7 +184,7 @@ Access our newest medical exam dataset via the link provided. The dataset includ
 
 | Examination                                                  | #Question | Exam Time  | Links                                                        |
 | ------------------------------------------------------------ | --------- | ---------- | ------------------------------------------------------------ |
-| 2023 Chinese National Pharmacist Licensure Examination (Pharmacy) | 480       | 2023.10.21 | [huggingface](https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-Pharmacy_track) |
+| 2023 Chinese National Pharmacist Licensure Examination (Pharmacy) | 480       | 2023.10.22 | [huggingface](https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-Pharmacy_track) |
 | 2023 Chinese National Pharmacist Licensure Examination (TCM) | 480       | 2023.10.22 | [huggingface](https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-TCM_track) |
 | Other **Fresh** Medical Examinations is in coming            |           |            |                                                              |
 
