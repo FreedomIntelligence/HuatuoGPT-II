@@ -8,10 +8,12 @@
 
 
 <p align="center">
-🖥️ <a href="https://www.huatuogpt.cn/" target="_blank">Online Demo</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B" target="_blank">7B Model</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B" target="_blank">13B Model</a> ｜ ⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B" target="_blank">34B Model</a>   ｜ 📃 <a href="https://arxiv.org/abs/2311.09774" target="_blank">Paper</a> <br>
+🖥️ <a href="https://www.huatuogpt.cn/" target="_blank">Online Demo (7B)</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B" target="_blank">7B Model</a> ｜⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B" target="_blank">13B Model</a> ｜ ⬇️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B" target="_blank">34B Model</a>   ｜ 📃 <a href="https://arxiv.org/abs/2311.09774" target="_blank">Paper</a> <br>
 </p>
 
+
 ### ✨ Latest News
+- [12/04/2023] We released the **code and dataset for our evaluation**.
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
 - [11/21/2023] We released HuatuoGPT-II models. The HuatuoGPT-II will be available in **7B**, **13B**, and **34B** versions.
 - [11/17/2023] We released the [HuatuoGPT-II paper](https://arxiv.org/abs/2311.09774), achieving a new **state-of-the-art** in Chinese medical applications! Try our [demo](https://www.huatuogpt.cn/)!
@@ -152,10 +154,10 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 
 We open source part of the training data.
 
-| Data Type                               | #Sample | Link    |
-| --------------------------------------- | ------- | ------- |
-| Medical Fine-tuning Instruction (GPT-4) | 50,000  | HF Link |
-| Medical Pre-training Instruction        | -       | HF Link |
+| Data Type                               | #Sample | Link                                                         |
+| --------------------------------------- | ------- | ------------------------------------------------------------ |
+| Medical Fine-tuning Instruction (GPT-4) | 50,000  | [HF Link](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2_sft_instruct_GPT4_50K) |
+| Medical Pre-training Instruction        | -       | -                                                            |
 
 
 
@@ -164,27 +166,27 @@ We open source part of the training data.
 
 ### Automated Evaluation of Medical Response Quality
 
-- Single-turn response evaluation using GPT-4:
+- Single-turn response evaluation using **GPT-4**:
 
 ```bash
-python evaluation/GPT4_eval_inst.py
+python evaluation/eval_huatuo_inst.py
 ```
 
-- Multi-turn dialogue evaluation using GPT-4:
+- Multi-turn dialogue evaluation using **GPT-4**:
 
 ```bash
-python evaluation/GPT4_eval_conv.py
+python evaluation/eval_huatuo_conv.py
 ```
 
 ### The Fresh Medical Exams
 
 Access our newest medical exam dataset via the link provided. The dataset includes complete exam questions, with exam dates noted to alert for potential leaks. We plan to release more updated exams in the future.
 
-| Examination                                                  | #Question | Exam Time  | Links       |
-| ------------------------------------------------------------ | --------- | ---------- | ----------- |
-| 2023 Chinese National Pharmacist Licensure Examination (Pharmacy) | 480       | 2023.10.21 | huggingface |
-| 2023 Chinese National Pharmacist Licensure Examination (TCM) | 480       | 2023.10.22 | huggingface |
-| Other **Fresh** Medical Examinations is in coming            |           |            |             |
+| Examination                                                  | #Question | Exam Time  | Links                                                        |
+| ------------------------------------------------------------ | --------- | ---------- | ------------------------------------------------------------ |
+| 2023 Chinese National Pharmacist Licensure Examination (Pharmacy) | 480       | 2023.10.21 | [huggingface](https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-Pharmacy_track) |
+| 2023 Chinese National Pharmacist Licensure Examination (TCM) | 480       | 2023.10.22 | [huggingface](https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-TCM_track) |
+| Other **Fresh** Medical Examinations is in coming            |           |            |                                                              |
 
 
 
