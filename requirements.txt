@@ -6,4 +6,3 @@ transformers
 sentencepiece
 tokenizers
 wandb
-sentencepiece
