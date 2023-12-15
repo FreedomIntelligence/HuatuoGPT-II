@@ -90,14 +90,14 @@ class HuatuoGPT_data(torch.utils.data.Dataset):
         
         # you need to set
         # When you want random sampling, please set the same data priority
-        self.data_priority = {'Meidcal_Web_Corpus_en': 16,
-                              'Meidcal_Web_Corpus_cn': 16,
-                            'Meidcal_Literature_cn': 8,
-                            'Meidcal_Literature_en': 8,
-                            'Meidcal_Encyclopedia_cn':4,
-                            'Meidcal_Encyclopedia_en':4,
-                            'Meidcal_Books_cn': 2,
-                            'Meidcal_Books_en': 2,
+        self.data_priority = {'Meidcal_Web_Corpus_en': 32,
+                              'Meidcal_Web_Corpus_cn': 32,
+                            'Meidcal_Literature_cn': 16,
+                            'Meidcal_Literature_en': 16,
+                            'Meidcal_Encyclopedia_cn':8,
+                            'Meidcal_Encyclopedia_en':8,
+                            'Meidcal_Books_cn': 4,
+                            'Meidcal_Books_en': 4,
                             'SFT_data': 1}
         
         self.data_epoch = {'Meidcal_Web_Corpus_en': 1,
