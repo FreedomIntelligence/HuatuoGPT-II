@@ -112,7 +112,7 @@ python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B
 
 
 
-## 🌈 One-stage Adapation
+## 🌈 One-stage adaption
 
 ### Data Unification
 
@@ -123,7 +123,7 @@ python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B
 - HuatuoGPT2 transforms the pre-training corpus into  (instruction, output) pairs using LLM. Utilize the script for Data Unification.
 
 ```Bash
-python adapation/data_unification/rewrite.py
+python adaption/data_unification/rewrite.py
 ```
 
 ### One-stage training
@@ -134,13 +134,13 @@ python adapation/data_unification/rewrite.py
 - We introduce a priority sampling approach, pre-processing data with this algorithm:
 
 ```bash
-python adapation/one_stage_training/data_process.py
+python adaption/one_stage_training/data_process.py
 ```
 
 - Then, training is conducted using one-stage training:
 
 ```Bash
-bash adapation/one_stage_training/train.sh
+bash adaption/one_stage_training/train.sh
 ```
 
 By adopting the One-stage Adaptation method, you will observe the following loss curve:
