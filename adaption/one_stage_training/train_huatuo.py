@@ -22,7 +22,6 @@ import datasets
 import shutil
 import json
 import random
-from scorer2 import score_result,score_mix2
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 os.umask(0)
