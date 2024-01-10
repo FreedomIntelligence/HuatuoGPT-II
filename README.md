@@ -13,6 +13,7 @@
 
 
 ### ✨ Latest News
+- [01/10/2024] The HuatuoGPT2 model is available on the **Wisemodel platform** and can be downloaded [here](https://www.wisemodel.cn/models/FreedomIntelligence/HuatuoGPT-II).
 - [12/04/2023] We released the **code and dataset for our evaluation**.
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
 - [11/21/2023] We released HuatuoGPT-II models. The HuatuoGPT-II will be available in **7B**, **13B**, and **34B** versions.
