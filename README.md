@@ -13,6 +13,7 @@
 
 
 ### ✨ Latest News
+- [24/06/2024] We have made all training data for HuatuoGPT2 publicly available. This includes the [Pretraining dataset](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-Pretraining-Instruction) and the [SFT dataset](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-SFT-GPT4-140K)).
 - [01/10/2024] The HuatuoGPT2 model is now available on the [Wisemodel platform](https://www.wisemodel.cn/models/FreedomIntelligence/HuatuoGPT-II).
 - [12/04/2023] We released the **code and dataset for our evaluation**.
 - [11/24/2023] We released the **quantitative version** of HuatuoGPT-II.
@@ -111,6 +112,15 @@ print(response)
 python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B
 ```
 
+## 📚 Data
+
+We open source part of the training data.
+
+| Data Type                               | # Training data | Link                                                         |
+| --------------------------------------- | ------- | ------------------------------------------------------------ |
+| Medical Fine-tuning Instruction (GPT-4) | 142,248  | [HF Link](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-SFT-GPT4-140K) |
+| Medical Pre-training Instruction        |  5,286,308   | [HF Link](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-Pretraining-Instruction)                |
+
 
 
 ## 🌈 One-stage adaption
@@ -149,17 +159,6 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 <div align=center>
 <img src="assets/loss.png"  width = "50%" alt="HuatuoGPT2" align=center/>
 </div>
-
-
-## 📚 Data
-
-We open source part of the training data.
-
-| Data Type                               | #Sample | Link                                                         |
-| --------------------------------------- | ------- | ------------------------------------------------------------ |
-| Medical Fine-tuning Instruction (GPT-4) | 50,000  | [HF Link](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2_sft_instruct_GPT4_50K) |
-| Medical Pre-training Instruction        | -       | -                                                            |
-
 
 
 
