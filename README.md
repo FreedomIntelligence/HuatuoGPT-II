@@ -13,6 +13,7 @@
 
 
 ### ✨ Latest News
+- [07/10/2024]: 🎉🎉🎉 Our paper is accepted for [COLM 2024](https://colmweb.org/AcceptedPapers.html)! 
 - [06/24/2024] We have made all training data for HuatuoGPT2 publicly available. This includes the [Pretraining dataset](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-Pretraining-Instruction) and the [SFT dataset](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT2-SFT-GPT4-140K)).
 - [01/10/2024] The HuatuoGPT2 model is now available on the [Wisemodel platform](https://www.wisemodel.cn/models/FreedomIntelligence/HuatuoGPT-II).
 - [12/04/2023] We released the **code and dataset for our evaluation**.
