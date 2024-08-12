@@ -167,6 +167,12 @@ By adopting the One-stage Adaptation method, you will observe the following loss
 
 ### Automated Evaluation of Medical Response Quality
 
+-- Evaluation code for the QA benchmarks.
+
+```bash
+accelerate launch evaluation/eval_qa.py --model_path=FreedomIntelligence/HuatuoGPT2-7B --data_path=./evaluation/data/eval_qa.json
+```
+
 - Single-turn response evaluation using **GPT-4**:
 
 ```bash
@@ -178,6 +184,8 @@ python evaluation/eval_huatuo_inst.py
 ```bash
 python evaluation/eval_huatuo_conv.py
 ```
+
+
 
 ### The Fresh Medical Exams
 
